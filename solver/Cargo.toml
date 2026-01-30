@@ -4,7 +4,7 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-# 锁定到一小时前稳定版本，避开 Ekubo 内部编译冲突
+# fix to stable version
 tycho-simulation = { git = "https://github.com/propeller-heads/tycho-simulation.git", rev = "d1b732c", features = ["evm"] }
 
 tokio = { version = "1", features = ["full"] }
