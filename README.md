@@ -44,8 +44,9 @@ Pair: WETH / USDC
 Chunks Matched: 100/100
 Total USDC Received: 275315985821
 ==============================================
-
+```
 ### ❌ Failed Test (wstETH/USDC - Missing Direct Pool)
+```text
 Step 1: Loading tokens...
 Step 2: Syncing pool snapshot...
 Step 2: Synced 586 total pools.
@@ -54,3 +55,5 @@ Step 3: Simulating 100 chunks for 100 wstETH...
 ================ SIMULATION REPORT ================
 Status: FAILED
 Reason: No direct pools found for this pair in the synced snapshot.
+===================================================
+```
