@@ -68,7 +68,7 @@ async fn main() -> Result<()> {
 
     // Debug check
     let mut match_count = 0;
-    for (pid, meta) in components.iter() {
+    for (_pid, meta) in components.iter() {
         let pool_tokens: Vec<String> = meta.tokens.iter()
             .map(|t| t.address.to_string().to_lowercase()).collect();
         if pool_tokens.contains(&t_in_addr) && pool_tokens.contains(&t_out_addr) {
